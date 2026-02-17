@@ -17,7 +17,7 @@ You'll need:
 4. Inkscape to vectorize the icons.
 
 # CREDITS
-- Inspirated by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
+- Inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
 - Original work by **maxtron95**: https://github.com/maxtron95/tuxonpixels-icon-theme
 - Fallback and all non-application icons by **ItsZariep**: https://github.com/ItsZariep/pixelitos-icon-theme
 
