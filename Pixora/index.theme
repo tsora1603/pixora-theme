@@ -1,0 +1,13 @@
+[Icon Theme]
+Name=Pixora
+Comment=Tux-on-Pixels + tsora additions, pixelitos hybrid
+Inherits=pixelitos-dark, hicolor
+Directories=apps/scalable
+
+[apps/scalable]
+Size=48
+Type=Scalable
+Context=Applications
+MinSize=16
+MaxSize=512
+
