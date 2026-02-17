@@ -15,3 +15,11 @@ You'll need:
 2. 16x16 canvas size;
 3. Make use of the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) for consistency;
 4. Inkscape to vectorize the icons.
+
+# CREDITS
+- Inspirated by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
+- Original work by **maxtron95**: https://github.com/maxtron95/tuxonpixels-icon-theme
+- Fallback and all non-application icons by **ItsZariep**: https://github.com/ItsZariep/pixelitos-icon-theme
+
+> ⚠️  Note:
+The pixelitos icon theme is going to be dropped as soon as I develop my own versions of all the icons it covers.
