@@ -2,8 +2,14 @@
 Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
 <p align="center">
+  <figure>
   <img src="assets/icons-showcase-4.png" width="700">
+  <figcaption>A screenshot showcasing pixora-theme on noctalia-shell.</figcaption>
+  
+    
   <img src="assets/icons-showcase-2.png" width="700">
+  <figcaption>A better view of the icons visual style.</figcaption>
+  </figure>
 </p>
 
 # Installation
