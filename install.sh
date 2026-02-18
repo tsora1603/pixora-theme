@@ -8,15 +8,6 @@ fi
 if [ ! -d "$HOME/.local/share/icons" ]; then
 	mkdir "$HOME/.local/share/icons"
 fi
-if [ ! -d "$HOME/.local/share/icons/pixelitos-dark" ]; then
-	mkdir "$HOME/.local/share/icons/pixelitos-dark"
-fi
-if [ ! -d "$HOME/.local/share/icons/pixelitos-light" ]; then
-	mkdir "$HOME/.local/share/icons/pixelitos-light"
-fi
-if [ ! -d "$HOME/.local/share/icons/pixora" ]; then
-	mkdir "$HOME/.local/share/icons/pixora"
-fi
 
 echo 'How would you like to install? options:'
 echo '1: Symbolic links - keeps git repo on system and allows use of git pull to keep up to date'
