@@ -8,7 +8,7 @@ NC='\033[0m'
 
 dir=$(pwd)
 git pull
-if [ -d "$HOME/.local/share/icons/pixelitos-dark" ] && [ -d "$HOME/.local/share/icons/pixelitos-light" ] && [ -d "$HOME/.local/share/icons/pixora" ]; then
+if [ -d "$HOME/.icons/pixelitos-dark" ] && [ -d "$HOME/.icons/pixelitos-light" ] && [ -d "$HOME/.icons/pixora" ]; then
 	echo "Pixora Icon Theme already installed."
 	exit 1
 fi
@@ -19,8 +19,8 @@ echo -e "┆ ◄  Pixora Icon Theme - Installer  ► ┆"
 echo -e "┆                                     ┆"
 echo -e "╚═════════════════════════════════════╝\n\n"
 
-if [ ! -d "$HOME/.local/share/icons" ]; then
-	mkdir "$HOME/.local/share/icons"
+if [ ! -d "$HOME/.icons" ]; then
+	mkdir "$HOME/.icons"
 fi
 
 echo -e "Welcome!"
@@ -38,9 +38,9 @@ if [ "$choice" == "1" ]; then
 	read -p "Press Enter to continue..."
 	echo -e "\nCreating symlinks...\n"
 	
-	ln -s "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
-	ln -s "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-	ln -s "$dir/pixora" "$HOME/.local/share/icons/pixora"
+	ln -s "$dir/pixelitos-dark" "$HOME/.icons/pixelitos-dark"
+	ln -s "$dir/pixelitos-light" "$HOME/.icons/pixelitos-light"
+	ln -s "$dir/pixora" "$HOME/.icons/pixora"
 	
 	elif [ "$choice" = "2" ]; then
 		echo -e "\n⚠️ By choosing ${GREEN}Option 2${NC}, you are aware that, in order to ${RED}update the theme${NC},"
@@ -50,9 +50,9 @@ if [ "$choice" == "1" ]; then
 		read -p "Press Enter to continue..."
 		echo -e "\nCopying files..."
 		
-		cp -r "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
-		cp -r "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-		cp -r "$dir/pixora" "$HOME/.local/share/icons/pixora"
+		cp -r "$dir/pixelitos-dark" "$HOME/.icons/pixelitos-dark"
+		cp -r "$dir/pixelitos-light" "$HOME/.icons/pixelitos-light"
+		cp -r "$dir/pixora" "$HOME/.icons/pixora"
 		sleep 1
 		echo -e "\nYou are about to remove the directory ${RED}[ $dir ]${NC}."
 		echo -e -n "Are you sure? ${GREEN}[Y/n]${NC}: "
