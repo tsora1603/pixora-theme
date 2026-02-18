@@ -28,7 +28,7 @@ b. Copy-paste the files in the right directories, allowing for a fully local ins
 ./install.sh
 ```
 
-> _If install.sh doesn't run, try ```chmod +x install.sh```_
+> _If install.sh doesn't run, try ```chmod +x install.sh``` and then run it again_
 
 <br>
 
