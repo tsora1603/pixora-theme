@@ -85,10 +85,8 @@ if [ -d "$HOME/.local/share/icons/pixelitos-dark" ] && [ -d "$HOME/.local/share/
 	confirm=${confirm,,}
 
 	if [[ "$confirm" = "y" || -z "$confirm" ]]; then
-	
-	rm -rf ~/.local/share/icons/pixora ~/.local/share/icons/pixelitos-light ~/.local/share/icons/pixelitos-dark
-	installation
-
+		rm -rf ~/.local/share/icons/pixora ~/.local/share/icons/pixelitos-light ~/.local/share/icons/pixelitos-dark
+		installation
 	else 
 		echo -e "\nExiting install script."
 	fi
