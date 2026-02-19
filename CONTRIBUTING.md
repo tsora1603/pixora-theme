@@ -18,7 +18,7 @@ Please include in your report:
 
 ## Icon Requests
 
-The most useful information regarding new icons is the actual icon name. You may request a new icon ignoring completely the next section, but it'd be very nice to have this information beforehand.
+The most useful information regarding new icons is the actual icon name. You may request a new icon completely ignoring the next section, but it'd be very nice to have this information beforehand.
 
 Before suggesting a new app icon, check its name on `/usr/share/applications` inside the application's .desktop file.
 
