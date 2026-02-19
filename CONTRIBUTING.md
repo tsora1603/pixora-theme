@@ -13,19 +13,18 @@ Please include in your report:
 - Your distro (Ubuntu, Arch, Fedora... Or  any of their derivatives);
 - Your DE (GNOME, KDE, XFce...)
 - Theme version;
-- Steps to reproduce the bug;
+- Steps to reproduce the bug (if applicable);
 - Screenshots (if applicable).
 
 ## Icon Requests
 
-The most useful information regarding new icons is the actual icon name. You could request a new icon ignoring completely the next section, but it'd be very nice to have this information beforehand.
+The most useful information regarding new icons is the actual icon name. You may request a new icon completely ignoring the next section, but it'd be very nice to have this information beforehand.
 
-Before suggesting a new app icon, check its name on `/usr/share/applications` inside the application's .desktop file.
+Check the icon name on `/usr/share/applications`, inside the application's `.desktop` file.
 
 Example using Heroic Games Launcher .desktop file:
 
-<pre> 
-ini
+<pre> ini
 
 [Desktop Entry]
 Name=Heroic Games Launcher
@@ -51,9 +50,10 @@ MimeType=x-scheme-handler/heroic;
 Categories=Game;
 </pre>
 
-Only after obtaining it, open a new issue stating "[XYZ Application]  Missing Icon" + informing the icon's name.
+After obtaining it, open a new issue with the title "[XYZ Application]  Missing Icon" or similar, and inform the icon name.
 
-Please refrain from adding multiple icon requests into the same issue, as this makes the workflow quite chaotic.
+>[!Note]
+> Please refrain from adding multiple icon requests into the same issue, as this makes the workflow quite chaotic.
 
 ## Pull Requests
 
@@ -64,8 +64,9 @@ Please keep PRs small and focused:
 
 ## Style Guidelines
 
-- All icons must be `.svg`;
+- All icons must be `.svg` (vectorized);
 - All icons must be first drawn on a 16x16 canvas;
+- All icons must have a border with the color `#3E3546`;
 - Follow the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) when making new icons;
 
 ## License Reminder
