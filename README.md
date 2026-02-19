@@ -3,12 +3,12 @@ Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 <br><br>
 
 # 📷 Screenshots
-## Icons on an app launcher, featuring noctalia-shell.
+### Icons on an app launcher, featuring noctalia-shell:
 ![Desktop preview](assets/icons-showcase-4.png)
 
 <br>
 
-## Icons full showcase.
+### Icons full showcase:
 ![Icons showcase](assets/icons-showcase-final.png)
 
 <br>
