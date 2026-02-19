@@ -13,7 +13,7 @@ Please include in your report:
 - Your distro (Ubuntu, Arch, Fedora... Or  any of their derivatives);
 - Your DE (GNOME, KDE, XFce...)
 - Theme version;
-- Steps to reproduce the bug;
+- Steps to reproduce the bug (if applicable);
 - Screenshots (if applicable).
 
 ## Icon Requests
