@@ -64,7 +64,7 @@ Please keep PRs small and focused:
 
 ## Style Guidelines
 
-- All icons must be `.svg`;
+- All icons must be `.svg` (vectorized);
 - All icons must be first drawn on a 16x16 canvas;
 - Follow the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) when making new icons;
 
