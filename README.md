@@ -3,12 +3,13 @@ Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 <br><br>
 
 # 📷 Screenshots
+### Icons on an app launcher, featuring noctalia-shell:
 ![Desktop preview](assets/icons-showcase-4.png)
->*An example of how the icons look on a desktop environment, featuring noctalia-shell.*
+
 <br>
 
-![Icons showcase](assets/icons-showcase-2.png)
->*A better view of the icons style.*
+### Icons full showcase:
+![Icons showcase](assets/icons-showcase-final.png)
 
 <br>
 
