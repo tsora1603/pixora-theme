@@ -25,7 +25,7 @@ Check the icon name on `/usr/share/applications`, inside the application's `.des
 Example using Heroic Games Launcher .desktop file:
 
 <pre> ini
-  
+
 [Desktop Entry]
 Name=Heroic Games Launcher
 Exec=/opt/Heroic/heroic %U
