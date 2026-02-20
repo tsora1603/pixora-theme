@@ -55,7 +55,7 @@ This is when the limitations of the 32-color palette shine the most!
 
 Example of shaded vs non-shaded versions of the same icon:
 
-[ images ]
+![Shade vs No Shade](.github/shading-example.png)
 
 ## Glyphs and General Advice
 
