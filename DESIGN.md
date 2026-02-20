@@ -22,12 +22,13 @@ A border has three simple criteria:
 
 Here you can see examples of GOOD borders and BAD borders:
 
-![Bad Border 1](assets/badborder1.png) ![Bad Border 2](assets/badborder2.png)
+![Bad Border 1](assets/badborder1.png) ![Bad Border 2](assets/badborder2.png) ![Bad Border 3](assets/badborder2.png)
 
 Why are those considered 'bad':
 
-1. The first one only goes aroung the external part of the icon, leaving the inside region incomplete;
-2. The second one does not go all the way around, since there's a part of the icon there. It is actually possible to make this border good, because the icon width is 14px.
+1. The first one is the wrong color (`#625565` instead of `#3E3546`);
+1. The second one only goes aroung the external part of the icon, leaving the inside region incomplete;
+2. The third one does not go all the way around, since there's a part of the icon there. It is actually possible to make this border good, because the icon width is 14px.
 
 ## Vectorizing
 
