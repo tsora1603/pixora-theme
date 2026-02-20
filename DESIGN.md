@@ -28,7 +28,7 @@ Here you can see examples of GOOD borders and BAD borders:
 
 <br>
 
-Why are those considered 'bad':
+Why are those borders considered 'bad':
 
 1. The first one is the wrong color (`#625565` instead of `#3E3546`);
 1. The second one only goes aroung the external part of the icon, leaving the inside region incomplete;
