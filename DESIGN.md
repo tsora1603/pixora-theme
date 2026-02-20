@@ -40,7 +40,7 @@ Why are those borders considered 'bad':
 
 1. The first one has the wrong color (`#625565` instead of `#3E3546`);
 2. The second one does not go all the way around, since there's a part of the icon on the edge of the grid. It is actually possible to make this border good — the icon width is 14px;
-3. The third one only goes aroung the external part of the icon, leaving the inside region incomplete.
+3. The third one only goes around the external part of the icon, leaving the inside region incomplete.
 
 ## Shading
 
