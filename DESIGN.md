@@ -1,14 +1,14 @@
-# pixora-theme design guidelines
+# pixora-theme Design Guidelines
 
 ***These Guidelines are still work-in-progress and are subject to change!***
 
 If you want to make icons for pixora-theme, these guidelines should point you to the right direction. Although they are not that strict, you should still keep them in mind for consistency reasons.
 
-# general app guidelines
+# General App Guidelines
 
 These guidelines apply to every app, be it Discord, Firefox, Steam (branded apps); or Settings, Accessibility, File Manager (non-branded apps).
 
-## borders
+## Borders
 
 Every app icon has a border. It's purpose is to keep the icons 'away' from any background color and define their own space on the screen. Since they are all drawn on a 16x16 grid, every color matters, and avoiding background fading is super important. 
 
@@ -27,12 +27,12 @@ Why are those considered 'bad':
 2.
 3.
 
-## vectorizing
+## Vectorizing
 
 Every app icon should be vectorized. Reason being I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable` than to make 16, 24, 32, 64px and so on versions of every single icon. 
 The process should be simple enough to follow and fast, so it's actually not a time sink to do so for every design.
 
-### tutorial:
+### Tutorial:
 
 1. After finishing your design on your favorite 16x16 canvas, **upscale** the icon to 512x512 (no need for more than that) using the `Nearest-neighbor` option. You may save the icon in this resolution, as it is not the final product. You can always downscale back to 16x16 by `Nearest-neighbor` if anything.
 
@@ -61,7 +61,7 @@ The process should be simple enough to follow and fast, so it's actually not a t
 
 8. All done! You now have a beautiful, vectorized, 16x16 pixel art icon that can be resized to any resolution without losing a single detail. :)
 
-## color palette
+## Color Palette
 
 This, together with the vectorizing rule, should be the only rule that is very strict. Please refrain from using any color outside of the 32 that [Resurrect](https://lospec.com/palette-list/resurrect-32) offers, as this would ruin the general aesthetic of your icon when comparing with the rest.
 
@@ -72,7 +72,7 @@ Visual representation of the color palette:
 
 [ image ]
 
-## shading
+## Shading
 
 Every icon should have some sort of shading, except monochromatic ones (eg.: GitHub, Monochrome, Hydra Launcher), and rare exceptions like Nvidia's where it kind of has some shading originally. This is to keep visual consistency between the icons.
 
@@ -83,7 +83,7 @@ Example of shaded vs non-shaded versions of the same icon:
 
 [ images ]
 
-## glyphs 
+## Glyphs 
 
 Keep in mind that pixel art is not about taking the full resolution version of an image and resizing it down; it's actually redrawing it from scratch, where every single pixel matters and actually represents a significant portion of the whole image. You can see this clearly on this project, since we're limited to mere 256 pixels IN TOTAL for every single image. 
 
