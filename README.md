@@ -1,7 +1,7 @@
 # pixora-theme
 taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
->[!Note]
+>[!note]
 > pixora-theme is being updated regularly. In case you want an icon to be added, please open a new issue.
 
 # 📷 screenshots
@@ -15,7 +15,7 @@ taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
 <br>
 
-# 🖥️ how to Install
+# 🖥️ how to install
 
 ## 1. clone the repo 
 ```bash
@@ -24,7 +24,7 @@ cd pixora-theme
 ```
 <br>
 
-## 2. launch the Installation Script
+## 2. launch the installation script
 this will either: <br><br>
 a. symlink the files into place, allowing for easy updates by running `git pull`; <br>
 b. copy-paste the files in the right directories, allowing for a fully local installation.
