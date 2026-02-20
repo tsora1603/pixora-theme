@@ -8,6 +8,10 @@ If you want to make icons for pixora-theme, these guidelines should point you to
 
 These guidelines apply to every app, be it Discord, Firefox, Steam (branded apps); or Settings, Accessibility, File Manager (non-branded apps).
 
+## Taking References
+
+You're free to use any version you want from any app icon for reference, besides the really old ones if the app has been through many rebrandings. Try to keep the designs consistent with existing ones as well!
+
 ## Borders
 
 Every app icon has a border. Its purpose is to keep the icons 'away' from any background color and define their own space on the screen. Since they are all drawn on a 16x16 grid, every color matters, and avoiding background fading is super important. 
@@ -90,5 +94,3 @@ Example of shaded vs non-shaded versions of the same icon:
 Keep in mind that pixel art is not about taking the full resolution version of an image and resizing it down; it's actually redrawing it from scratch, where every single pixel matters and actually represents a significant portion of the whole image. You can see this clearly on this project, since we're limited to mere 256 pixels IN TOTAL for every single image. 
 
 When drawing the glyph of any app, try to think which portion of the whole image the last pixel(s) you've drawn actually represents. You'll be surprised of how often you notice that the final result is getting distorted, and you'll know exactly why by applying this thought process.
-
-Aside from this general advice, you're free to use any version you want from any app icon for reference, besides the really old ones if said app has been through many rebrandings. Try to keep the designs consistent with existing ones as well!
