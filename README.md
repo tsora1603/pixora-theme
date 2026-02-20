@@ -1,16 +1,16 @@
 # pixora-theme
-taking the legacy of an archived 16-bit icon theme and adding my own work to it.
+Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
 >[!note]
 > pixora-theme is being updated regularly. In case you want an icon to be added, please open a new issue.
 
 # 📷 screenshots
-### icons on an app launcher, featuring noctalia-shell:
+#### Icons on an app launcher, featuring noctalia-shell:
 ![Desktop preview](assets/icons-showcase-2.png)
 
 <br>
 
-### icons full showcase:
+#### Icons full showcase:
 ![Icons showcase](assets/icons2.png)
 
 <br>
@@ -25,9 +25,9 @@ cd pixora-theme
 <br>
 
 ## 2. launch the installation script
-this will either: <br><br>
-a. symlink the files into place, allowing for easy updates by running `git pull`; <br>
-b. copy-paste the files in the right directories, allowing for a fully local installation.
+This will either: <br><br>
+a. Symlink the files into place, allowing for easy updates by running `git pull`; <br>
+b. Copy-paste the files in the right directories, allowing for a fully local installation.
 
 ```bash
 ./install.sh
@@ -38,12 +38,12 @@ b. copy-paste the files in the right directories, allowing for a fully local ins
 <br>
 
 # 🎨 how to contribute with art
-you'll need:
+You'll need:
 
-1. a pixel art editor ([LibreSprite](https://libresprite.github.io/#!/) is great!);
+1. A pixel art editor ([LibreSprite](https://libresprite.github.io/#!/) is great!);
 2. 16x16 canvas size;
-3. make use of the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) for consistency;
-4. inkscape to vectorize the icons.
+3. Make use of the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) for consistency;
+4. Inkscape to vectorize the icons.
 
 <br>
 
