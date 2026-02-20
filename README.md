@@ -37,13 +37,8 @@ b. Copy-paste the files in the right directories, allowing for a fully local ins
 
 <br>
 
-# 🎨 How to Contribute With Art
-You'll need:
-
-1. A pixel art editor ([LibreSprite](https://libresprite.github.io/#!/) is great!);
-2. 16x16 canvas size;
-3. Make use of the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) for consistency;
-4. Inkscape to vectorize the icons.
+# 🎨 How to Contribute
+Want to contribute to the project? Check our ![Contributing Guide](CONTRIBUTING.md) and ![Design Guidelines](DESIGN.md)!
 
 <br>
 
