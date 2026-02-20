@@ -22,7 +22,7 @@ A border has three simple criteria:
 
 Here you can see examples of GOOD borders and BAD borders:
 
-![Bad Border 1](assets/badborder1.png) ![Bad Border 2](assets/badborder2.png) ![Bad Border 3](assets/badborder3.png)
+![Bad Borders](assets/badborders.png)
 
 Why are those considered 'bad':
 
