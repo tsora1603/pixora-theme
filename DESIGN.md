@@ -57,6 +57,8 @@ The process should be fast and simple enough to follow, so it's actually not a t
 
 [ video example ] 
 
+6. Click `Apply` to apply your changes. You should now have a new object perfectly positioned above the original image that you can drag and zoom around (if you really end up doing that, don't forget to `Ctrl+Z`).
+
 7. Go to `File > Export...` to export your file (make sure it is `Plain SVG (*.svg)` extension).
 
 8. All done! You now have a beautiful, vectorized, 16x16 pixel art icon that can be resized to any resolution without losing a single detail. :)
