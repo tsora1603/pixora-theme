@@ -65,7 +65,7 @@ The process should be fast and simple enough to follow, so it's actually not a t
 
 ## Color Palette
 
-This, together with the vectorizing rule, should be the only rule that is very strict. Please refrain from using any color outside of the 32 that [Resurrect](https://lospec.com/palette-list/resurrect-32) offers, as this would ruin the general aesthetic of your icon when comparing with the rest.
+This, together with the vectorizing rule, should be the only rule that is very strict. Please refrain from using any color outside of the 32 that [Resurrect](https://lospec.com/palette-list/resurrect-32) offers, as this would ruin the general aesthetic of your icon when comparing it with the rest.
 
 Be creative with your designs! If you're not that deep into art, many times you'll think that it's impossible to draw an icon without a specific color, but it is very much possible if you try hard enough. 
 You're free to tweak the original icon aesthetic as much as you want, as long as it does not make it unrecognizable. Have fun!
