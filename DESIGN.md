@@ -21,9 +21,11 @@ A border has three simple criteria:
 - If the icon has any "hollow" (transparent) section, or an internal border (think of a donut shape) it should go there as well.
 
 Here you can see examples of GOOD borders and BAD borders:
+<br>
 
 ![Bad Borders](assets/badborders.png)
 
+<br>
 Why are those considered 'bad':
 
 1. The first one is the wrong color (`#625565` instead of `#3E3546`);
