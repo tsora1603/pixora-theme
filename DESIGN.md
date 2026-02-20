@@ -31,7 +31,7 @@ Here you can see examples of GOOD borders and BAD borders:
 Why are those borders considered 'bad':
 
 1. The first one has the wrong color (`#625565` instead of `#3E3546`);
-2. The second one does not go all the way around, since there's a part of the icon on the edge of the grid. It is actually possible to make this border good, because the icon width is 14px.
+2. The second one does not go all the way around, since there's a part of the icon on the edge of the grid. It is actually possible to make this border good, since the icon width is 14px.
 3. The third one only goes aroung the external part of the icon, leaving the inside region incomplete;
 
 ## Vectorizing
