@@ -30,7 +30,7 @@ Here you can see examples of GOOD borders and BAD borders:
 
 Why are those borders considered 'bad':
 
-1. The first one is the wrong color (`#625565` instead of `#3E3546`);
+1. The first one has the wrong color (`#625565` instead of `#3E3546`);
 1. The second one only goes aroung the external part of the icon, leaving the inside region incomplete;
 2. The third one does not go all the way around, since there's a part of the icon there. It is actually possible to make this border good, because the icon width is 14px.
 
