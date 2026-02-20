@@ -10,7 +10,7 @@ These guidelines apply to every app, be it Discord, Firefox, Steam (branded apps
 
 ## Borders
 
-Every app icon has a border. It's purpose is to keep the icons 'away' from any background color and define their own space on the screen. Since they are all drawn on a 16x16 grid, every color matters, and avoiding background fading is super important. 
+Every app icon has a border. Its purpose is to keep the icons 'away' from any background color and define their own space on the screen. Since they are all drawn on a 16x16 grid, every color matters, and avoiding background fading is super important. 
 
 A border has three simple criteria:
 - It should be colored `#3E3546`;
