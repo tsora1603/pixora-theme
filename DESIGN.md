@@ -29,7 +29,7 @@ Why are those considered 'bad':
 
 ## Vectorizing
 
-Every app icon should be vectorized. Reason being I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable` than to make 16, 24, 32, 64px and so on versions of every single icon. 
+Every app icon should be vectorized. Reason being, I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable` than to make 16, 24, 32, 64px and so on versions of every single icon. 
 The process should be simple enough to follow and fast, so it's actually not a time sink to do so for every design.
 
 ### Tutorial:
