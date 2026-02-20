@@ -89,7 +89,7 @@ The process should be fast and simple enough to follow, so it's actually not a t
 
 [ video example ] 
 
-6. Click `Apply` to apply your changes. You should now have a new object perfectly positioned above the original image that you can drag and zoom around (if you really end up doing that, don't forget to `Ctrl+Z`).
+6. Click `Apply` to apply your changes. You should now have a new object perfectly positioned above the original image that you can drag and zoom around (if you really end up doing that, don't forget to `Ctrl+Z` to revert it back into place <:).
 
 7. Go to `File > Export...` to export your file. Make sure it is `Plain SVG (*.svg)` extension.
 
