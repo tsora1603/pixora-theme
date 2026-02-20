@@ -34,6 +34,34 @@ Why are those borders considered 'bad':
 2. The second one does not go all the way around, since there's a part of the icon on the edge of the grid. It is actually possible to make this border good — the icon width is 14px.
 3. The third one only goes aroung the external part of the icon, leaving the inside region incomplete;
 
+## Color Palette
+pixora-theme icons use a specific color palette. You can check it out by clicking [here](https://lospec.com/palette-list/resurrect-32)!
+This, together with the vectorizing rule, should be the only rule that is very strict. Please refrain from using any color outside of the 32 ones that Resurrect offers, as this would ruin the general aesthetic of your icon when comparing it with the rest.
+
+Be creative with your designs! If you're not that deep into art, many times you'll think that it's impossible to draw an icon without a specific color, but it is very much possible if you try hard enough. 
+You're free to tweak the original icon aesthetic as much as you want, as long as it does not make it unrecognizable. Have fun!
+
+Visual representation of the color palette:
+
+![Color Palette](.github/resurrect-32-32x.png)
+
+## Shading
+
+Every icon should have some sort of shading, except monochromatic ones (eg.: GitHub, Monochrome, Hydra Launcher), and rare exceptions like Nvidia's where it kind of has some shading originally. This is to keep visual consistency between the icons.
+
+Shading is (most of the time) done assuming the light source is above the object, so a lighter tone on the top part and a darker one on the bottom part should suffice. It is also quite simplistic, so a single-pixel line should be enough.
+This is when the limitations of the 32-color palette shine the most!
+
+Example of shaded vs non-shaded versions of the same icon:
+
+[ images ]
+
+## Glyphs and General Advice
+
+Keep in mind that pixel art is not about taking the full resolution version of an image and resizing it down; it's actually redrawing it from scratch, where every single pixel matters and actually represents a significant portion of the whole image. You can see this clearly on this project, since we're limited to mere 256 pixels IN TOTAL for every single image. 
+
+When drawing the glyph of any app, try to think which portion of the whole image the last pixel(s) you've drawn actually represents. You'll be surprised of how often you notice that the final result is getting distorted, and you'll know exactly why by applying this thought process.
+
 ## Vectorizing
 
 Every app icon should be vectorized. Reason being, I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable` than to make 16, 24, 32, 64px and so on versions of every single icon. 
@@ -69,31 +97,3 @@ The process should be fast and simple enough to follow, so it's actually not a t
 7. Go to `File > Export...` to export your file. Make sure it is `Plain SVG (*.svg)` extension.
 
 8. All done! You now have a beautiful, vectorized, 16x16 pixel art icon that can be resized to any resolution without losing a single detail. :)
-
-## Color Palette
-pixora-theme icons use a specific color palette. You can check it out by clicking [here](https://lospec.com/palette-list/resurrect-32)!
-This, together with the vectorizing rule, should be the only rule that is very strict. Please refrain from using any color outside of the 32 ones that Resurrect offers, as this would ruin the general aesthetic of your icon when comparing it with the rest.
-
-Be creative with your designs! If you're not that deep into art, many times you'll think that it's impossible to draw an icon without a specific color, but it is very much possible if you try hard enough. 
-You're free to tweak the original icon aesthetic as much as you want, as long as it does not make it unrecognizable. Have fun!
-
-Visual representation of the color palette:
-
-![Color Palette](.github/resurrect-32-32x.png)
-
-## Shading
-
-Every icon should have some sort of shading, except monochromatic ones (eg.: GitHub, Monochrome, Hydra Launcher), and rare exceptions like Nvidia's where it kind of has some shading originally. This is to keep visual consistency between the icons.
-
-Shading is (most of the time) done assuming the light source is above the object, so a lighter tone on the top part and a darker one on the bottom part should suffice. It is also quite simplistic, so a single-pixel line should be enough.
-This is when the limitations of the 32-color palette shine the most!
-
-Example of shaded vs non-shaded versions of the same icon:
-
-[ images ]
-
-## Glyphs and General Advice
-
-Keep in mind that pixel art is not about taking the full resolution version of an image and resizing it down; it's actually redrawing it from scratch, where every single pixel matters and actually represents a significant portion of the whole image. You can see this clearly on this project, since we're limited to mere 256 pixels IN TOTAL for every single image. 
-
-When drawing the glyph of any app, try to think which portion of the whole image the last pixel(s) you've drawn actually represents. You'll be surprised of how often you notice that the final result is getting distorted, and you'll know exactly why by applying this thought process.
