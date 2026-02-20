@@ -10,8 +10,7 @@ These guidelines apply to every app, be it Discord, Firefox, Steam (branded apps
 
 ## Taking References
 
-You're free to use any version you want from any app icon for reference, besides the really old ones if the app has been through many rebrandings. Try to keep the designs consistent with existing ones as well!
-
+You're free to use any version you want from any app icon for reference, besides the really old ones if the app has been through many rebrandings. Also try to keep the designs consistent with existing ones!
 ## Borders
 
 Every app icon has a border. Its purpose is to keep the icons 'away' from any background color and define their own space on the screen. Since they are all drawn on a 16x16 grid, every color matters, and avoiding background fading is super important. 
