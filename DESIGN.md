@@ -85,10 +85,10 @@ Example of shaded vs non-shaded versions of the same icon:
 
 [ images ]
 
-## Glyphs 
+## Glyphs and General Advice
 
 Keep in mind that pixel art is not about taking the full resolution version of an image and resizing it down; it's actually redrawing it from scratch, where every single pixel matters and actually represents a significant portion of the whole image. You can see this clearly on this project, since we're limited to mere 256 pixels IN TOTAL for every single image. 
 
-When drawing the glyph of any app, try to think which portion of the image the last pixel(s) you've drawn actually represents. You'll be surprised of how often you notice that the final result is getting distorted, and you'll know exactly why by applying this thought process.
+When drawing the glyph of any app, try to think which portion of the whole image the last pixel(s) you've drawn actually represents. You'll be surprised of how often you notice that the final result is getting distorted, and you'll know exactly why by applying this thought process.
 
 Aside from this general advice, you're free to use any version you want from any app icon, besides the really old ones if said app has been through many rebrandings. Try to keep the designs consistent with existing ones as well!
