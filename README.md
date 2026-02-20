@@ -1,21 +1,21 @@
 # pixora-theme
 Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
->[!Note]
+>[!note]
 > pixora-theme is being updated regularly. In case you want an icon to be added, please open a new issue.
 
-# 📷 Screenshots
-### Icons on an app launcher, featuring noctalia-shell:
+# 📷 screenshots
+#### Icons on an app launcher, featuring noctalia-shell:
 ![Desktop preview](assets/icons-showcase-2.png)
 
 <br>
 
-### Icons full showcase:
+#### Icons full showcase:
 ![Icons showcase](assets/icons2.png)
 
 <br>
 
-# 🖥️ How to Install
+# 🖥️ how to install
 
 ## 1. Clone the repo 
 ```bash
@@ -24,7 +24,7 @@ cd pixora-theme
 ```
 <br>
 
-## 2. Launch the Installation Script
+## 2. Launch the installation script
 This will either: <br><br>
 a. Symlink the files into place, allowing for easy updates by running `git pull`; <br>
 b. Copy-paste the files in the right directories, allowing for a fully local installation.
@@ -37,7 +37,7 @@ b. Copy-paste the files in the right directories, allowing for a fully local ins
 
 <br>
 
-# 🎨 How to contribute with art
+# 🎨 how to contribute with art
 You'll need:
 
 1. A pixel art editor ([LibreSprite](https://libresprite.github.io/#!/) is great!);
@@ -48,9 +48,9 @@ You'll need:
 <br>
 
 # 👥 CREDITS
-- Inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
-- Original work by **maxtron95**: https://github.com/maxtron95/tuxonpixels-icon-theme
-- Fallback and all non-application icons by **ItsZariep**: https://github.com/ItsZariep/pixelitos-icon-theme
+- inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
+- original work by **maxtron95**: https://github.com/maxtron95/tuxonpixels-icon-theme
+- fallback and all non-application icons by **ItsZariep**: https://github.com/ItsZariep/pixelitos-icon-theme
 
 > ⚠️  Note:
 The pixelitos icon theme is going to be dropped as soon as I develop my own versions of all the icons it covers.
