@@ -52,7 +52,7 @@ The process should be fast and simple enough to follow, so it's actually not a t
 
 [ image ]
 
-5. Using the `Scans` slider (or the `+` and `-` icons) of the `Trace Bitmap` tab, tweak the amount until EVERY original color of the icon is present on the preview, and the background is black:
+5. Using the `Scans` slider (or the `+` and `-` icons), tweak the amount until EVERY original color of the icon is present on the preview, and the background is black:
 > If you don't see a preview during this process, the image is most certainly not selected.
 
 [ video example ] 
