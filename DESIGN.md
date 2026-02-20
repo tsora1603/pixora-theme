@@ -14,7 +14,7 @@ Every app icon has a border. Its purpose is to keep the icons 'away' from any ba
 
 A border has three simple criteria:
 - It should be colored `#3E3546`;
-- It should go around the *entire icon* (so avoid coloring the edges of the grid as much as possible);
+- It should go around the **entire** icon (so avoid coloring the edges of the grid as much as possible);
 - If the icon has any "hollow" (transparent) section, or an internal border (think of a donut shape) it should go there as well.
 
 Here you can see examples of GOOD icons, and BAD icons, as well as their borders:
