@@ -62,13 +62,6 @@ Please keep PRs small and focused:
 - One fix per PR;
 - No unrelated changes.
 
-## Style Guidelines
-
-- All icons must be `.svg` (vectorized);
-- All icons must be first drawn on a 16x16 canvas;
-- All icons must have a border with the color `#3E3546`;
-- Follow the [Resurrect 32 color pallete](https://lospec.com/palette-list/resurrect-32) when making new icons;
-
 ## License Reminder
 By contributing, you agree that your contributions will be licensed under the same license as the project.
 
