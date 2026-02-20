@@ -1,4 +1,4 @@
-# Contributing
+# Contributing Guidelines
 
 Thank you for your interest in contributing to this project!
 Pixora-theme welcomes bug reports, pull and feature requests, and suggestions!
