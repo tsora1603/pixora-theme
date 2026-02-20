@@ -34,11 +34,7 @@ A border has three simple criteria:
 
 Here you can see examples of GOOD borders and BAD borders:
 
-<br>
-
 ![Borders Examples](.github/borders-examples.png)
-
-<br>
 
 Why are those borders considered 'bad':
 
