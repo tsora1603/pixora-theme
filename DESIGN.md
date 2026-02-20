@@ -17,7 +17,7 @@ A border has three simple criteria:
 - It should go around the **entire** icon (so avoid coloring the edges of the grid as much as possible);
 - If the icon has any "hollow" (transparent) section, or an internal border (think of a donut shape) it should go there as well.
 
-Here you can see examples of GOOD icons, and BAD icons, as well as their borders:
+Here you can see examples of GOOD icons, BAD icons, as well as their borders:
 
 [ images here ]
 
