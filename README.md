@@ -1,4 +1,4 @@
-# pixora-theme
+# pixora-icons
 Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
 
 >[!Note]
@@ -35,8 +35,8 @@ yay -S pixora-icons-git
 ## Local Installation
 ### 1. Clone the repo 
 ```bash
-git clone https://github.com/tsora1603/pixora-theme.git
-cd pixora-theme
+git clone https://github.com/tsora1603/pixora-icons.git
+cd pixora-icons
 ```
 
 ### 2. Launch the installation script
