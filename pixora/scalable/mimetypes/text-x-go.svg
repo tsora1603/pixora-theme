@@ -1,21 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Generator: visioncortex VTracer 0.6.12 -->
-<svg width="512" height="512" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <path transform="translate(64)" d="m0 0h256v32h32v32h32v32h32v32h32v32h32v320h-32v32h-384v-32h-32v-448h32v-32z" fill="#8FD3FF"/>
- <path transform="translate(64)" d="m0 0h256v32h32v32h32v32h32v32h32v32h32v320h-32v-288h-160v-160h-224v-32z" fill="#3E3546"/>
- <path transform="translate(32,32)" d="m0 0h32v448h-32v-448z" fill="#3E3546"/>
- <path transform="translate(64,480)" d="m0 0h384v32h-384v-32z" fill="#3E3546"/>
- <path transform="translate(64,448)" d="m0 0h384v32h-384v-32z" fill="#4D9BE6"/>
- <path transform="translate(320,256)" d="m0 0h96v96h-96v-96z" fill="#fff"/>
- <path transform="translate(96,256)" d="m0 0h96v96h-96v-96z" fill="#fff"/>
- <path transform="translate(320,64)" d="m0 0h64v32h32v64h-96v-96z" fill="#8FD3FF"/>
- <path transform="translate(64,32)" d="m0 0h224v32h-224v-32z" fill="#8FF8E2"/>
- <path transform="translate(224,320)" d="m0 0h64v32h32v32h-128v-32h32v-32z" fill="#AB947A"/>
- <path transform="translate(288,192)" d="m0 0h160v32h-160v-32z" fill="#8FF8E2"/>
- <path transform="translate(224,384)" d="m0 0h64v32h-64v-32z" fill="#fff"/>
- <path transform="translate(224,320)" d="m0 0h64v32h-64v-32z" fill="#3E3546"/>
- <path transform="translate(352,288)" d="m0 0h32v32h-32v-32z" fill="#3E3546"/>
- <path transform="translate(128,288)" d="m0 0h32v32h-32v-32z" fill="#3E3546"/>
- <path transform="translate(384,96)" d="m0 0h32v32h-32v-32z" fill="#3E3546"/>
- <path transform="translate(352,64)" d="m0 0h32v32h-32v-32z" fill="#3E3546"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <g
+       id="g2"
+       transform="translate(0.07502931,0.00937867)">
+      <path
+         style="fill:#fefefe"
+         d="M 8,13 H 7 V 12.5 12 H 8 9 V 12.5 13 Z M 4.5,11 H 3 V 9.5 8 H 4.5 6 V 9.5 11 Z m 0,-1 H 5 V 9.5 9 H 4.5 4 V 9.5 10 Z m 7,1 H 10 V 9.5 8 H 11.5 13 V 9.5 11 Z m 0,-1 H 12 V 9.5 9 H 11.5 11 V 9.5 10 Z"
+         id="path7" />
+      <path
+         style="fill:#8ef7e1"
+         d="M 5.5,2 H 2 V 1.5 1 H 5.5 9 V 1.5 2 Z"
+         id="path6" />
+      <path
+         style="fill:#8ed2fe"
+         d="M 8,14 H 2 V 8 2 H 5.5 9 V 4.5 7 H 11.5 14 V 10.5 14 Z M 8,13 H 9 V 12.5 12 H 9.5 10 V 11.5 11 H 11.5 13 V 9.5 8 H 11.5 10 V 9.5 11 H 9.5 9 V 10.5 10 H 8 7 V 10.5 11 H 6.5 6 V 9.5 8 H 4.5 3 V 9.5 11 H 4.5 6 V 11.5 12 H 6.5 7 V 12.5 13 Z M 11.5,5 H 10 V 3.5 2 H 10.5 11 V 2.5 3 H 11.5 12 V 3.5 4 H 12.5 13 V 4.5 5 Z"
+         id="path5" />
+      <path
+         style="fill:#4c9ae5"
+         d="M 8,15 H 2 V 14.5 14 h 6 6 V 14.5 15 Z M 11.5,7 H 9 V 6.5 6 H 11.5 14 V 6.5 7 Z"
+         id="path4" />
+      <path
+         style="fill:#aa9379"
+         d="M 8,12 H 6 V 11.5 11 h 2 2 v 0.5 0.5 z"
+         id="path3" />
+      <path
+         style="fill:#3d3445"
+         d="M 8,16 H 2 V 15.5 15 H 1.5 1 V 8 1 H 1.5 2 V 0.5 0 h 4 4 V 0.5 1 H 10.5 11 V 1.5 2 H 11.5 12 V 2.5 3 H 12.5 13 V 3.5 4 H 13.5 14 V 4.5 5 h 0.5 0.5 v 5 5 H 14.5 14 v 0.5 0.5 z m 0,-1 h 6 V 10.5 6 H 11.5 9 V 3.5 1 H 5.5 2 v 7 7 z M 8,11 H 7 V 10.5 10 H 8 9 V 10.5 11 Z M 4.5,10 H 4 V 9.5 9 H 4.5 5 V 9.5 10 Z m 7,0 H 11 V 9.5 9 H 11.5 12 V 9.5 10 Z m 0,-5 H 13 V 4.5 4 H 12.5 12 V 3.5 3 H 11.5 11 V 2.5 2 H 10.5 10 V 3.5 5 Z"
+         id="path2" />
+    </g>
+  </g>
 </svg>
