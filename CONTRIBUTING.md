@@ -18,42 +18,7 @@ Please include in your report:
 
 ## Icon Requests
 
-The most useful information regarding new icons is the actual icon name. You may request a new icon completely ignoring the next section, but it'd be very nice to have this information beforehand.
-
-Check the icon name on `/usr/share/applications`, inside the application's `.desktop` file.
-
-Example using Heroic Games Launcher .desktop file:
-
-<pre> ini
-
-[Desktop Entry]
-Name=Heroic Games Launcher
-Exec=/opt/Heroic/heroic %U
-Terminal=false
-Type=Application
-
-Icon=heroic # <----------------- This is the information we want
-
-StartupWMClass=Heroic
-Comment[de]=Ein OSS-Spielelauncher für GOG, Epic Games und Amazon Games
-Comment[pl]=Otwartoźródłowy launcher dla GOG, Epic Games i Amazon Games
-Comment[fr]=Un lanceur de jeux open source pour GOG, Epic Games et Amazon Games
-Comment[es]=Un lanzador de juegos de código abierto para GOG, Epic Games
-Comment[it]=Un launcher open source per GOG, Epic Games e Amazon Games
-Comment[ru]=Открытый лаунчер для GOG, Epic Games и Amazon
-Comment[zh_CN]=一个用于GOG、Epic Games和Amazon Games的开源游戏启动器
-Comment[pt]=Um lançador de jogos de código aberto para GOG, Epic Games e Amazon Games
-Comment[pt_BR]=Um lançador de jogos de código aberto para GOG, Epic Games e Amazon Games
-Comment[ja]=GOG、Epic Games、Amazon Gamesのためのオープンソースランチャー
-Comment=An Open Source Launcher for GOG, Epic Games and Amazon Games
-MimeType=x-scheme-handler/heroic;
-Categories=Game;
-</pre>
-
-After obtaining it, open a new issue with the title "[XYZ Application]  Missing Icon" or similar, and inform the icon name.
-
->[!Note]
-> Please refrain from adding multiple icon requests into the same issue, as this makes the workflow quite chaotic.
+Please refrain from adding multiple icon requests into the same issue, as this makes the workflow quite chaotic.
 
 ## Pull Requests
 
