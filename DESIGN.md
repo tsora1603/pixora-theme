@@ -61,36 +61,13 @@ When drawing the glyph of any app, try to think which portion of the whole image
 
 ## Vectorizing
 
-Every app icon should be vectorized. Reason being, I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable`, than having to make 16, 24, 32, 64px and so on versions of every single icon. 
-The process should be fast and simple enough to follow, so it's actually not a time sink to do so for every design.
+Every app icon should be vectorized. Reason being, I think it's way easier to, in this project's case, make every icon a vector and set the theme to `scalable`, than having to make 16, 24, 32, 64px and so on versions of every single icon. The entire vectorizing process is automated by the provided script, so it should be a walk in the park. 
 
 ### Tutorial:
 
-1. After finishing your design on your favorite 16x16 canvas, **upscale** the icon to 512x512 (no need for more than that) using the `Nearest-neighbor` option. You may save the icon in this resolution, as it is not the final product. You can always downscale back to 16x16 by `Nearest-neighbor` if anything.
-
-![LibreSprite Example](.github/lsprite-example.gif)
-
-2. Open your file on **Inkscape**.
-
-3. Left-click the image of your icon inside the canvas to select it.
-
-4. Using the `W:` (width) and `H:` (height) fields you see at the top of the window, *downscale* the icon back to 16x16 (this optimizes file size):
-
-5. Press `Shift+Ctrl+R` or go to `Edit > Resize Page to Selection` to make the canvas fit the new icon size.
-
-5. Press `Shift+Alt+B` or go to `Path > Trace Bitmap...` to open the bitmap tracing tab.
-
-4. Inside the tab that just opened in the right section, go to `Multicolor`, and under `Detection mode`, select `Colors` (remember to keep your icon image selected):
-
-![Inkscape Example](.github/inkscape-example.png)
-
-5. Using the `Scans` slider (or the `+` and `-` icons), tweak the amount until EVERY original color of the icon is present on the preview, and the background is black:
-> If you don't see a preview during this process, the image is most certainly not selected.
-
-![Bitmap Tracing](.github/bitmap-trace.gif)
-
-6. Click `Apply` to apply your changes. You should now have a new object perfectly positioned above the original image that you can drag and zoom around (if you really end up doing that, don't forget to `Ctrl+Z` to revert it back into place <:).
-
-7. Go to `File > Export...` to export your file. Make sure it is `Plain SVG (*.svg)` extension.
-
-8. All done! You now have a beautiful, vectorized, 16x16 pixel art icon that can be resized to any resolution without losing a single detail. :)
+1. **[⚠️ IMPORTANT]** After finishing your design on your favorite 16x16 canvas, export the file to any folder named `16x16`;
+2. Have the provided [vectorizing.sh](/vectorizing.sh) script available ***outside***  the `16x16` folder with your design(s);
+3. Execute the script via any way you like, e.g. by doing `./vectorizing.sh`;
+4. You should now have a folder named `svg` containing all the traced files;
+5. Read this tutorial again and make sure you understand each step;
+6. Done! :)
