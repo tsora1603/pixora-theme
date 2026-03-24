@@ -1,6 +1,6 @@
 # Attribution and Third-Party Licenses
 
-This project, "Pixora-theme", incorporates assets from other sources, each under its respective license.
+This project, "pixora-icons", incorporates assets from other sources, each under its respective license.
 
 ---
 
