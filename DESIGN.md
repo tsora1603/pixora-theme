@@ -1,4 +1,4 @@
-# pixora-theme Design Guidelines
+# pixora-icons Design Guidelines
 
 ***These Guidelines are still work-in-progress and are subject to change!***
 
@@ -66,8 +66,10 @@ Every app icon should be vectorized. Reason being, I think it's way easier to, i
 ### Tutorial:
 
 1. **[⚠️ IMPORTANT]** After finishing your design on your favorite 16x16 canvas, export the file to any folder named `16x16`;
-2. Have the provided [vectorizing.sh](/vectorizing.sh) script available ***outside***  the `16x16` folder with your design(s);
-3. Execute the script via any way you like, e.g. by doing `./vectorizing.sh`;
-4. You should now have a folder named `svg` containing all the traced files;
-5. Read this tutorial again and make sure you understand each step;
-6. Done! :)
+2. Make sure to have [imagemagick](https://imagemagick.org/script/download.php#gsc.tab=0), [vtracer](https://github.com/visioncortex/vtracer), [inkscape](https://inkscape.org/) and [scour](https://deepwiki.com/scour-project/scour/2.1-installation) installed;
+3. Have the provided [vectorizing.sh](/vectorizing.sh) script available ***outside***  the `16x16` folder with your design(s);
+> ([vectorizing.fish](/vectorizing.fish) is available for fish shell users)
+4. Execute the script via any way you like, e.g. by doing `./vectorizing.sh`;
+5. You should now have a folder named `svg` containing all the traced files;
+6. Read this tutorial again and make sure you understand each step;
+7. Done! :)
