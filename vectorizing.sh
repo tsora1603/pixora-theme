@@ -2,6 +2,7 @@
 SRC_DIR="$PWD/16x16"
 OUT_DIR="$PWD/svg"
 TMP_DIR="$PWD/tmp-512"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 mkdir -p "$OUT_DIR"
 mkdir -p "$TMP_DIR"
@@ -31,13 +32,24 @@ trace() {
 export -f trace
 parallel --eta --bar trace {} "$TMP_DIR" ::: "$TMP_DIR"/*-512.png
 
-# Step 3: clean with scour in parallel
-clean() {
+# Step 3: fit viewBox to actual visible content in parallel
+fit() {
     traced="$1"
-    OUT_DIR="$2"
+    TMP_DIR="$2"
+    SCRIPT_DIR="$3"
     name=$(basename "${traced%-traced.svg}")
+    python3 "$SCRIPT_DIR/svgfit.py" "$traced" "$TMP_DIR/$name-fit.svg"
+}
+export -f fit
+parallel --eta --bar fit {} "$TMP_DIR" "$SCRIPT_DIR" ::: "$TMP_DIR"/*-traced.svg
+
+# Step 4: clean with scour in parallel
+clean() {
+    fit="$1"
+    OUT_DIR="$2"
+    name=$(basename "${fit%-fit.svg}")
     scour \
-        -i "$traced" \
+        -i "$fit" \
         -o "$OUT_DIR/$name.svg" \
         --enable-id-stripping \
         --enable-comment-stripping \
@@ -46,7 +58,7 @@ clean() {
         >/dev/null
 }
 export -f clean
-parallel --eta --bar clean {} "$OUT_DIR" ::: "$TMP_DIR"/*-traced.svg
+parallel --eta --bar clean {} "$OUT_DIR" ::: "$TMP_DIR"/*-fit.svg
 
 # deleting temporary files
 rm -rf "$TMP_DIR"
