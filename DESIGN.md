@@ -70,7 +70,7 @@ Every app icon should be vectorized. Reason being, I think it's way easier to, i
 
 1. **[⚠️ IMPORTANT]** After finishing your design on your favorite 16x16 canvas, export the file to any folder named `16x16`;
 2. Make sure to have [imagemagick](https://imagemagick.org/script/download.php#gsc.tab=0), [vtracer](https://github.com/visioncortex/vtracer), [scour](https://deepwiki.com/scour-project/scour/2.1-installation), [python-lxml](https://github.com/lxml/lxml?tab=readme-ov-file), and [parallel](https://www.gnu.org/software/parallel/) installed;
-3. Have the provided [vectorizing.sh](/vectorizing.sh) and [svgfit.py](/svgfit.py) scripts available ***outside***  the `16x16` folder with your design(s);
+3. Have the provided [vectorizing.sh](/pixora/vectorizing.sh) and [svgfit.py](/pixora/svgfit.py) scripts available ***outside***  the `16x16` folder with your design(s);
 4. Execute `vectorizing.sh` via any way you like, e.g. by doing `./vectorizing.sh`;
 5. You should now have a folder named `svg` containing all the traced files;
 6. Read this tutorial again and make sure you understand each step;
