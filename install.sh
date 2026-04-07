@@ -34,7 +34,7 @@ function installation {
 		
 		ln -s "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
 		ln -s "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-		ln -s "$dir/pixora" "$HOME/.local/share/icons/pixora"
+		ln -s "$dir/pixora-icons" "$HOME/.local/share/icons/pixora-icons"
 		
 		elif [ "$choice" = "2" ]; then
 			echo -e "\n⚠️ By choosing ${GREEN}Option 2${NC}, you are aware that, in order to ${RED}update the theme${NC},"
@@ -46,7 +46,7 @@ function installation {
 			
 			cp -r "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
 			cp -r "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-			cp -r "$dir/pixora" "$HOME/.local/share/icons/pixora"
+			cp -r "$dir/pixora-icons" "$HOME/.local/share/icons/pixora-icons"
 			
 			sleep 1
 			echo -e "\nYou are about to remove the directory ${RED}[ $dir ]${NC}."
@@ -78,14 +78,14 @@ function installation {
 
 dir=$(pwd)
 git pull
-if [ -d "$HOME/.local/share/icons/pixelitos-dark" ] || [ -d "$HOME/.local/share/icons/pixelitos-light" ] || [ -d "$HOME/.local/share/icons/pixora" ]; then
+if [ -d "$HOME/.local/share/icons/pixelitos-dark" ] || [ -d "$HOME/.local/share/icons/pixelitos-light" ] || [ -d "$HOME/.local/share/icons/pixora-icons" ]; then
 	echo -e "\n\nPixora Icon Theme already installed."
 	echo -e -n "Do you want to reinstall it? ${GREEN}[Y/n]${NC}: "
 	read -r confirm
 	confirm=${confirm,,}
 
 	if [[ "$confirm" = "y" || -z "$confirm" ]]; then
-		rm -rf ~/.local/share/icons/pixora ~/.local/share/icons/pixelitos-light ~/.local/share/icons/pixelitos-dark
+		rm -rf ~/.local/share/icons/pixora-icons ~/.local/share/icons/pixelitos-light ~/.local/share/icons/pixelitos-dark
 		installation
 	else 
 		echo -e "\nExiting install script."
