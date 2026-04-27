@@ -32,9 +32,8 @@ function installation {
 		read -p "Press Enter to continue..."
 		echo -e "\nCreating symlinks...\n"
 		
-		ln -s "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
-		ln -s "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-		ln -s "$dir/pixora-icons" "$HOME/.local/share/icons/pixora-icons"
+		ln -s "$dir/pixora" "$HOME/.local/share/icons/pixora"
+		ln -s "$dir/pixora-dark" "$HOME/.local/share/icons/pixora-dark"
 		
 		elif [ "$choice" = "2" ]; then
 			echo -e "\n⚠️ By choosing ${GREEN}Option 2${NC}, you are aware that, in order to ${RED}update the theme${NC},"
@@ -44,10 +43,9 @@ function installation {
 			read -p "Press Enter to continue..."
 			echo -e "\nCopying files..."
 			
-			cp -r "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
-			cp -r "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-			cp -r "$dir/pixora-icons" "$HOME/.local/share/icons/pixora-icons"
-			
+			cp -r "$dir/pixora" "$HOME/.local/share/icons/pixora"
+			cp -r "$dir/pixora-dark" "$HOME/.local/share/icons/pixora-dark"
+
 			sleep 1
 			echo -e "\nYou are about to remove the directory ${RED}[ $dir ]${NC}."
 			echo -e -n "Are you sure? ${GREEN}[Y/n]${NC}: "
@@ -76,16 +74,16 @@ function installation {
 	fi
 }
 
-dir=$(pwd)
+dir=$(realpath ..)
 git pull
-if [ -d "$HOME/.local/share/icons/pixelitos-dark" ] || [ -d "$HOME/.local/share/icons/pixelitos-light" ] || [ -d "$HOME/.local/share/icons/pixora-icons" ]; then
+if [ -d "$HOME/.local/share/icons/pixora" ] || [ -d "$HOME/.local/share/icons/pixora-dark" ]; then
 	echo -e "\n\nPixora Icon Theme already installed."
 	echo -e -n "Do you want to reinstall it? ${GREEN}[Y/n]${NC}: "
 	read -r confirm
 	confirm=${confirm,,}
 
 	if [[ "$confirm" = "y" || -z "$confirm" ]]; then
-		rm -rf ~/.local/share/icons/pixora-icons ~/.local/share/icons/pixelitos-light ~/.local/share/icons/pixelitos-dark
+		rm -rf ~/.local/share/icons/pixora ~/.local/share/icons/pixora-dark 
 		installation
 	else 
 		echo -e "\nExiting install script."
