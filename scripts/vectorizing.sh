@@ -27,7 +27,8 @@ trace() {
         --output "$TMP_DIR/$name-traced.svg" \
         --colormode color \
         --hierarchical cutout \
-        --mode pixel
+        --mode pixel 
+    sed -i 's/<svg /<svg shape-rendering="crispEdges" /' "$TMP_DIR/$name-traced.svg"
 }
 export -f trace
 parallel --eta --bar trace {} "$TMP_DIR" ::: "$TMP_DIR"/*-512.png
