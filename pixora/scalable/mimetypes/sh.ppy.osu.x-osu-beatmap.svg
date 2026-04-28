@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448" height="512" version="1.1" viewBox="64 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(96,64)" d="m0 0h224v160h160v32h-64v64h32v64h32v64h-128v-32h-32v32h-224zm128 32v32h32v-32zm-64 32v64h-32v32h32v128h-32v64h64v-64h32v32h64v-224h-32v32h-32v-32h-32v-32zm192 128v32h32v-32zm-32 64v64h32v-32h32v-32zm-32 64v32h32v-32zm128 0v32h32v-32z" fill="#F04F78"/>
+<path transform="translate(96)" d="m0 0h256v32h32v32h-32v96h96v-32h32v32h32v320h-32v-288h-160v-160h-224z" fill="#fff"/>
+<path transform="translate(160,224)" d="m0 0h128v160h-64v-64h32v-32h-64v128h-64v-64h32z" fill="#fff"/>
+<path transform="translate(64,32)" d="m0 0h32v448h-32z" fill="#fff"/>
+<path transform="translate(320,416)" d="m0 0h32v32h128v32h-384v-32h224z" fill="#C32454"/>
+<path transform="translate(96,480)" d="m0 0h384v32h-384z" fill="#fff"/>
+<path transform="translate(96,32)" d="m0 0h224v32h-224z" fill="#F68181"/>
+<path transform="translate(352,64)" d="m0 0h32v32h32v32h32v32h-96z" fill="#F04F78"/>
+<path transform="translate(320,192)" d="m0 0h160v32h-160z" fill="#C32454"/>
+<path transform="translate(320,320)" d="m0 0h64v32h-32v32h-32z" fill="#C32454"/>
+<path transform="translate(192,288)" d="m0 0h64v32h-32v32h-32z" fill="#C32454"/>
+<path transform="translate(416,256)" d="m0 0h64v32h-32v32h-32z" fill="#C32454"/>
+<path transform="translate(256,160)" d="m0 0h32v64h-64v-32h32z" fill="#C32454"/>
+<path transform="translate(160,128)" d="m0 0h32v32h32v32h-64z" fill="#C32454"/>
+<path transform="translate(448,320)" d="m0 0h32v64h-32z" fill="#C32454"/>
+<path transform="translate(160,192)" d="m0 0h64v32h-64z" fill="#F04F78"/>
+<path transform="translate(416,384)" d="m0 0h32v32h-32z" fill="#C32454"/>
+<path transform="translate(288,384)" d="m0 0h32v32h-32z" fill="#C32454"/>
+<path transform="translate(448,288)" d="m0 0h32v32h-32z" fill="#F04F78"/>
+<path transform="translate(352,256)" d="m0 0h32v32h-32z" fill="#C32454"/>
+<path transform="translate(128,192)" d="m0 0h32v32h-32z" fill="#C32454"/>
+<path transform="translate(416,96)" d="m0 0h32v32h-32z" fill="#fff"/>
+<path transform="translate(224,96)" d="m0 0h32v32h-32z" fill="#C32454"/>
+<path transform="translate(384,64)" d="m0 0h32v32h-32z" fill="#fff"/>
+</svg>
