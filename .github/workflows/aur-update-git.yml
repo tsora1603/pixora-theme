@@ -22,7 +22,5 @@ jobs:
         uses: TheWisker/aur-update-git@master
         with:
           aur_key: ${{ secrets.AUR_KEY }}
-          username: tsora
-          email: neiva.cesar07@proton.me
-	  ref: 'main'
-	  aur_folder: ./aur
+          username: TheWisker
+          email: TheWisker@protonmail.com
