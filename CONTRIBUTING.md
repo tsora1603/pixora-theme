@@ -97,11 +97,11 @@ Every app icon should be vectorized. Reason being, I think it's way easier to, i
 >[!Note] 
 > Claude AI was used to build the entirety of both `vectorizing.sh` and `svgfit.py` scripts, since I don't know how to code myself. They were tested on my own machine before being pushed to the repo, and are of course available for further inspection. They should work without any issues, since it's just a `.png > .svg` process inside a localized group of directories. Each major step of `vectorizing.sh` can be done manually, and `svgfit.py` only exists to replace Inkscape CLI tools, since they're not compatible with GNU Parallel for multi-processing.
 
-1. **[⚠️ IMPORTANT]** After finishing your design on your favorite 16x16 canvas, export the file to any folder named `16x16`;
+1. **[⚠️ IMPORTANT]** After finishing your design on your favorite 16x16 canvas, export the file to any directory named `16x16/`;
 2. Make sure to have [imagemagick](https://imagemagick.org/script/download.php#gsc.tab=0), [vtracer](https://github.com/visioncortex/vtracer), [scour](https://deepwiki.com/scour-project/scour/2.1-installation), [python-lxml](https://github.com/lxml/lxml?tab=readme-ov-file), and [parallel](https://www.gnu.org/software/parallel/) installed;
-3. Have the provided [vectorizing.sh](/pixora/vectorizing.sh) and [svgfit.py](/pixora/svgfit.py) scripts available ***outside***  the `16x16` folder with your design(s);
+3. Have the provided [vectorizing.sh](/pixora/vectorizing.sh) and [svgfit.py](/pixora/svgfit.py) scripts available ***outside***  the `16x16/` directory with your design(s);
 4. Execute `vectorizing.sh` via any way you like, e.g. by doing `./vectorizing.sh`;
-5. You should now have a folder named `svg` containing all the traced files;
+5. You should now have a directory named `svg/` containing all the traced files;
 6. Read this tutorial again and make sure you understand each step;
 7. Done! :)
 
