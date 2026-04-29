@@ -57,7 +57,7 @@ b. Copy-paste the files in the right directories, allowing for a fully local ins
 > _If install.sh doesn't run, try ```chmod +x install.sh``` and then run it again._
 
 ## 🎨 How to Contribute
-Want to contribute to the project? Check our [Contributing](CONTRIBUTING.md) Guidelines!
+Want to contribute to the project? Check our [Contributing Guidelines](CONTRIBUTING.md)!
 
 ## 👥 CREDITS
 - inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
