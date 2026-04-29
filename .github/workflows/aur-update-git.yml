@@ -1,0 +1,28 @@
+name: AUR Update Git
+run-name: AUR package update by ${{ github.actor }} push
+on:
+  push:
+    branches:
+      - 'main'
+permissions:
+  contents: write
+concurrency:
+  group: "aur"
+  cancel-in-progress: false
+jobs:
+  aur-update-git:
+    environment:
+      name: aur-packages
+    runs-on: ubuntu-latest 
+    container:
+      image: archlinux
+      options: --privileged
+    steps:
+      - name: AUR Update Git
+        uses: TheWisker/aur-update-git@master
+        with:
+          aur_key: ${{ secrets.AUR_KEY }}
+          username: tsora
+          email: neiva.cesar07@proton.me
+	  ref: 'main'
+	  aur_folder: ./aur
