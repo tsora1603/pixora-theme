@@ -1,7 +1,15 @@
 <div align="center">
-
+ 
 # 👾 pixora-icons 👾
 **Taking the legacy of an archived 16-bit icon theme.**
+
+</div>
+
+<div align=center>
+ 
+![GitHub last commit](https://img.shields.io/github/last-commit/tsora1603/pixora-icons?style=for-the-badge&logo=git&labelColor=101418&color=9ccbfb)
+![GitHub Repo stars](https://img.shields.io/github/stars/tsora1603/pixora-icons?style=for-the-badge&logo=githubsponsors&labelColor=101418&color=b9c8da)
+![GitHub repo size](https://img.shields.io/github/repo-size/tsora1603/pixora-icons?style=for-the-badge&logo=gitlfs&labelColor=101418&color=d3bfe6)
 
 </div>
 
