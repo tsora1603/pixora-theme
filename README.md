@@ -1,7 +1,7 @@
 <div align="center">
 
 # 👾 pixora-icons 👾
-**Taking the legacy of an archived 16-bit icon theme and adding my own work to it.**
+**Taking the legacy of an archived 16-bit icon theme.**
 
 </div>
 
@@ -56,12 +56,8 @@ b. Copy-paste the files in the right directories, allowing for a fully local ins
 ```
 > _If install.sh doesn't run, try ```chmod +x install.sh``` and then run it again._
 
-<br>
-
 ## 🎨 How to Contribute
 Want to contribute to the project? Check our [Contributing](CONTRIBUTING.md) Guidelines!
-
-<br>
 
 ## 👥 CREDITS
 - inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
