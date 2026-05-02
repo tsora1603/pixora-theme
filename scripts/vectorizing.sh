@@ -7,15 +7,21 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p "$OUT_DIR"
 mkdir -p "$TMP_DIR"
 
-# Step 1: upscale all PNGs in parallel
+# Step 1: upscale all PNGs in parallel (recursive search across subdirectories)
+# The relative subdir path is encoded into the tmp filename as a prefix (slashes → __SLASH__)
+# so we can reconstruct the output path later without losing structure.
 upscale() {
     img="$1"
-    TMP_DIR="$2"
-    name=$(basename "${img%.png}")
-    magick "$img" -filter point -resize 512x512 "$TMP_DIR/$name-512.png"
+    SRC_DIR="$2"
+    TMP_DIR="$3"
+    rel="${img#$SRC_DIR/}"           # e.g. "icons/arrow.png"
+    name="${rel%.png}"               # e.g. "icons/arrow"
+    flat="${name//\//__SLASH__}"     # e.g. "icons__SLASH__arrow"
+    magick "$img" -filter point -resize 512x512 "$TMP_DIR/$flat-512.png"
 }
 export -f upscale
-parallel --eta --bar upscale {} "$TMP_DIR" ::: "$SRC_DIR"/*.png
+mapfile -t png_files < <(find "$SRC_DIR" -type f -name "*.png")
+parallel --eta --bar upscale {} "$SRC_DIR" "$TMP_DIR" ::: "${png_files[@]}"
 
 # Step 2: trace all upscaled PNGs in parallel
 trace() {
@@ -27,7 +33,7 @@ trace() {
         --output "$TMP_DIR/$name-traced.svg" \
         --colormode color \
         --hierarchical cutout \
-        --mode pixel 
+        --mode pixel
     sed -i 's/<svg /<svg shape-rendering="crispEdges" /' "$TMP_DIR/$name-traced.svg"
 }
 export -f trace
@@ -44,14 +50,17 @@ fit() {
 export -f fit
 parallel --eta --bar fit {} "$TMP_DIR" "$SCRIPT_DIR" ::: "$TMP_DIR"/*-traced.svg
 
-# Step 4: clean with scour in parallel
+# Step 4: clean with scour in parallel, restoring subdirectory structure under svg/
 clean() {
     fit="$1"
     OUT_DIR="$2"
-    name=$(basename "${fit%-fit.svg}")
+    flat=$(basename "${fit%-fit.svg}")              # e.g. "icons__SLASH__arrow"
+    rel="${flat//__SLASH__/\/}"                     # e.g. "icons/arrow"
+    out_path="$OUT_DIR/$rel.svg"                    # e.g. "svg/icons/arrow.svg"
+    mkdir -p "$(dirname "$out_path")"
     scour \
         -i "$fit" \
-        -o "$OUT_DIR/$name.svg" \
+        -o "$out_path" \
         --enable-id-stripping \
         --enable-comment-stripping \
         --shorten-ids \
